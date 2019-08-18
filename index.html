@@ -1,0 +1,266 @@
+<html>
+    <head>
+        <title>My Profile</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <style>
+            *{
+                padding:0px;
+                margin:0px;
+            }
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color:white;
+                font-size: 1.3vw;
+                border: 1px solid black;
+            }
+            #container{
+                width:100%;
+                display: flex;  
+            }
+            #left{
+                width:30%;
+                background-color:rgb(31, 12, 49);
+            }
+            #right{
+                width:70%; 
+                padding-right: 1vw;
+                color:#555; 
+            }
+            .image{
+                width:50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .section,.tech,.intrest{
+                padding-left:.4vw;
+            }
+            p{
+                 padding:.4vw;
+            }
+            a{
+                text-decoration:none;
+                color:white;
+            }
+            .col{
+                margin-left:2vw;
+                width:3.5vw;
+                height:3.5vw;
+                border-radius:50%;
+                background-color: rgb(31, 12, 49);
+            }
+            li{
+                padding:.7vw;
+            }
+            .span{
+                font-weight: lighter;
+                padding: 1vw;
+            }
+       </style>
+    </head>
+    <body oncontextmenu="return false;" >
+        <div id="container">
+            <!-- left side-->
+        <div id="left">
+            <div style="height:4vw;"></div>
+            <!-- Image -->
+            <div class="image">
+                <img  style="width:100%; height:auto;border-radius:2px;" src="achu.jpg"/>
+            </div>
+            <div style="height:1vw;"></div>
+            <!-- Name -->
+            <div ><p style="font-weight: bolder;font-size:4vw;color:#007bff;font-family:Arial;text-align:center;">NARAESH P</p></div>
+            <div style="height:4.5vh;"></div>
+            <!-- contact -->
+            <div style="font-size: 1.1vw;font-weight: bold;">
+               <p><i class="fa fa-envelope-o" aria-hidden="true" style=" padding-right:1vw;"></i><a href="mailto:naraeshkumar96@gmail.com">naraeshkumar96@gmail.com</a></p>
+                <p><i class="fa fa-linkedin-square" aria-hidden="true" style=" padding-right:.9vw;"></i><a href="http://www.linkedin.com/in/naraesh-p-674248146/"> linkedin.com/in/naraesh-p-674248146/</a></p>
+                <p><i class="fa fa-github" aria-hidden="true" style=" padding-right: .9vw;"></i><a href="http://github.com/Naraesh"> github.com/Naraesh</a> </p>
+                <p><i class="fa fa-phone" aria-hidden="true" style=" padding-right: 1vw;"></i>+91-9488889461</p>            
+              </div> 
+              <div style="height:4vh;"></div>
+              <!-- Technical skills-->
+              <div class="tech">
+                    <div > <i style="padding-right:10px;font-size: 2vw;" class="fa fa-rocket" aria-hidden="true"></i><a style=" font-weight:bold;font-size: 2vw;">TECHNICAL SKILLS</a></div>             
+                    <div class="technical" style="padding-left:1.4vw;padding-top:.5vw">
+                         <ul style="padding:1vw;margin-left:1.1vw;">
+                            <li>Python</li>
+                            <li>Fundamentals of Java</li>
+                            <li>Javascript </li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>jQuery</li>
+                            <li>Django</li>
+                            <li>AJAX</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="height:3vh;"></div>
+                <!-- Database -->
+                <div class="intrest">
+                    <div><h2 style="font-size: 2vw;"><i class="fa fa-database" aria-hidden="true" style=" padding-right:1vw;"></i>DATABASE</h2></div>
+                    <div style="padding-left:1.4vw;padding-top:.5vw;">
+                        <ul style="padding:1vw;margin-left:1.1vw;">
+                            <li>MySQL</li>
+                            <li>SQLite</li> 
+                        </ul>      
+                    </div>
+                </div>
+                <div style="height:3vh;"></div>
+                <!-- Operating system -->
+                <div class="intrest">
+                    <div><h2 style="font-size: 2vw;"><i class="fa fa-desktop" aria-hidden="true" style=" padding-right:1vw;"></i>OPERATING SYSTEM</h2></div>
+                    <div style="padding-top:.5vw;">
+                              <ul style=" list-style:none;padding:1vw;margin-left:.1vw;">
+                                <li><i class="fa fa-linux" aria-hidden="true" style="padding-right: 1vw;"></i>GNU/Linux</li>
+                                <li><i class="fa fa-windows" aria-hidden="true" style=" padding-right:1vw;"></i>Windows</li> 
+                            </ul> 
+                        </div>
+                    </div>
+            <div style="height:3vh;"></div>
+            <!--Area of interest-->
+            <div class="intrest">
+                    <div><h2 style="font-size: 2vw;"><i class="fa fa-thumbs-up" aria-hidden="true" style=" padding-right: 1vw;"></i>INTERESTS</h2></div>
+                    <div style="padding-top:.5px;">
+                            <ul style=" list-style:none;padding:1vw;margin-left:.1vw;">
+                                <li><i class="fa fa-code" aria-hidden="true" style="padding-right: 1vw;"></i>Web Development</li>
+                                <li><i class="fa fa-database" aria-hidden="true" style=" padding-right: 1vw;"></i>Database Management System</li> 
+                            </ul> 
+                        </div>
+                </div>
+                <div style="height:3vw;" ></div>
+            </div>
+ <!-- Right side-->
+        <div id="right">
+                <div style="height:3vw;"></div>    
+                <!-- objective -->        
+                <div style=" display:flex;color: rgb(31, 12, 49); ">
+                    <div class="col"> <i  class="fa fa-star" style="color:white; font-size:2vw; margin-top:.7vw; margin-left:.8vw;" aria-hidden="true"></i></div>
+                    <div ><h2 style="margin-left:1.5vw;padding-top:.8vw;font-size:2vw; ">CAREER OBJECTIVE</h2></div>
+                </div>
+                <p style="padding:1vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw; text-indent:5.5vw;">To be a successful professional in a Globally Respected Company and to achieve the objectives of the company with honesty and to continuously upgrade my knowledge and skill.</p> 
+                <div style="height:2vwpx;"></div> 
+                <!-- Education --> 
+                <div style=" display:flex;color: rgb(31, 12, 49);">
+                        <div class="col"> <i  class="fa fa-graduation-cap" style="color:white;font-size: 2vw; margin-top:.7vw; margin-left:.6vw;" aria-hidden="true"></i></div>
+                        <div ><h2 style="margin-left:1.5vw;padding-top:.8vw;font-size:2vw;">EDUCATION</h2></div>
+                </div>
+                <div>
+                <p style="font-weight:bold;padding:1vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;"> Hindusthan  College of Engineering and Technology 
+                    <br><span class="span"> B.E Computer Science and  Engineering</span>
+                    <br><span class="span">6.61CGPA</span>
+                    <br><span class="span">2019</span>
+                </p>
+                </div>
+                <div style="height:.2vw;"></div>
+                <div>
+                    <p style="font-weight:bold;padding:1vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;">Christuraja Matriculation Higher Secondary School
+                        <br><span class="span">HSC</span>
+                        <br><span class="span">84.75%</span>
+                        <br><span class="span">2015</span>
+                    </p>
+                </div>
+                <div style="height:.2vw;"></div>
+                 <div>
+                        <p style="font-weight:bold;padding:1vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;"> Hari Sree Matriculation Higher Secondary School 
+                            <br><span class="span">SSLC</span>
+                            <br><span class="span">95.2%</span>
+                            <br><span class="span">2013</span>
+                        </p>
+                </div>
+                <div style="height:.7vw;"></div>  
+                <!--Project -->
+                <div style=" display:flex;color: rgb(31, 12, 49);">
+                        <div class="col"> <i  class="fa fa-paper-plane" style="color:white;font-size: 1.9vw; margin-top:.8vw; margin-left:.6vw;" aria-hidden="true"></i></div>
+                        <div ><h2 style="margin-left:1.5vw;padding-top:.8vw;font-size:2vw;">PROJECTS</h2></div>
+                </div>
+                <div>
+                    <p title="MainProject"style="font-weight:bold;padding:1vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;">Secure Routing for Multi-Hop Networks with Data Protection
+                            <br><br><span>Description:</span>
+                            <br>
+                            <span style="font-weight:lighter; margin-left:5.5vw;">The Secure Routing for Multi-Hop Networks is defined as finding the Multi-Hop path having the highest SCP.</span>
+                    </p>
+                </div>
+                <div>
+                    <p title="Mini Project" style="font-weight:bold;padding:1vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;">Bloodbank Management System
+                            <br><br><span>Description:</span>
+                            <br>
+                            <span style=" font-weight:lighter;margin-left:5.5vw;">This is a simple online application that helps in managing various blood donors and blood bank.</span>
+                    </p>
+                </div>
+                <div style="height:.7vw;"></div>  
+                <!-- Achievements -->
+                <div style=" display:flex;color: rgb(31, 12, 49);">
+                        <div class="col"> <i  class="fa fa-trophy" style="color:white;font-size: 2vw; margin-top:.8vw; margin-left:.8vw;" aria-hidden="true"></i></div>
+                        <div ><h2 style="margin-left:1.5vw;padding-top:.8vw;font-size:2vw;">ACHIEVEMENTS & AWARDS</h2></div>
+                </div>
+                <div>
+                        <p style="padding:1vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;">
+                                Achieved Distinction in <span style="font-weight: bolder;"> “JAVA FUNDAMENTALS”</span> conducted by ORACLE.
+                                                   
+                        </p>
+                </div>
+                <div>
+                        <p style="padding:1vw;text-align:justify;margin-left:7.2vw;">
+                                Achieved Distinction in <span style="font-weight: bolder;"> "DATA SCIENCE AND BIG DATA ANALYTICS"</span> conducted by EMC<sup>2</sup>.
+                                                   
+                        </p>
+                </div>
+                <div>
+                        <p style="padding:1vw;text-align:justify;margin-left:7.2vw;">
+                                Achieved Distinction in <span style="font-weight: bolder;"> “PYTHON with WEB DEVELOPMENT”</span> conducted by IPSR solution.
+                                                   
+                        </p>
+                </div>
+                <div style="height:.7vw;"></div>  
+                <div style=" display:flex;color: rgb(31, 12, 49);">
+                    <!-- Personal strength -->
+                        <div class="col"> <i  class="fa fa-thumbs-up" style="color:white;font-size: 2vw; margin-top:.7vw; margin-left:.9vw;" aria-hidden="true"></i></div>
+                        <div ><h2 style="margin-left:1.5vw;padding-top:.7vw;font-size:2vw;">PERSONAL STRENGTH</h2></div>
+                </div>
+                <div style="padding:1.2vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;">
+                        <p>Adaptability</p>
+                        <p>Positive Thinker</p>
+                        <p>Quick Learner</p>
+                </div>
+                <div style="height:.7vw;"></div>  
+                <!-- personal profile -->
+                <div style=" display:flex;color: rgb(31, 12, 49);">
+                        <div class="col"> <i  class="fa fa-user" style="color:white;font-size:2vw; margin-top:.7vw; margin-left:1vw;" aria-hidden="true"></i></div>
+                        <div ><h2 style="margin-left:1.5vw;padding-top:.8vw;font-size:2vw;">PERSONAL PROFILE</h2></div>
+                </div>
+                <div >
+                        <p style="padding:1.2vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;">Date of Birth<span style="margin-left:4.7vw;">:</span><span style="margin-left:.3vw;">22-05-1998</span></p>
+                        <p style="padding:1.2vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;">Fathers Name<span style="margin-left:4vw;">:</span><span style="margin-left:.3vw;">Pauldhas R</span></p>
+                        <p style="padding:1.2vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;" >Mothers Name<span style="margin-left:3.6vw;">:</span><span style="margin-left:.3vw;">Ida P</span></p>
+                        <p style="padding:1.2vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;" >Languages Known<span style="margin-left:1.2vw;">:</span><span style="margin-left:.3vw;">English,Tamil,Malayalam</span></p>
+                        <p style="padding:1.2vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;">Marital Status<span style="margin-left:3.9vw;">:</span><span style="margin-left:.3vw;">Single</span></p>
+                        <p style="padding:1.2vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;" >Nationality<span style="margin-left:6vw;">:</span><span style="margin-left:.3vw;">Indian</span></p>
+                        <p style="padding:1.2vw;margin-top:.5vw;text-align:justify;margin-left:7.2vw;" >Hobbies<span style="margin-left:7.7vw;">:</span><span style="margin-left:.3vw;">Cooking,Watching Movies</span></p>        
+        
+
+                    </div>
+                 <div style="height:.7vw;" ></div>
+        </div>
+      
+        </div>
+    </body>
+    <script>
+
+    document.onkeydown = function(e) {
+if(event.keyCode == 123) {
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+return false;
+}}
+
+    </script>
+</html>
