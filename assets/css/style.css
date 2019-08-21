@@ -37,7 +37,7 @@ p {
   background: #42A8C0;
   max-width: 960px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 25px;
   position: relative;
   box-shadow: 0px 2px 4px #555;
 }
@@ -216,7 +216,11 @@ p {
   font-size: 15px;
   font-weight: 300;
    }
-
+   .main-wrapper .time {
+    margin-bottom: 1px;
+    font-size: 14px;
+    font-weight: 300;
+     }
 .main-wrapper .company {
   margin-bottom: 1px;
   font-size: 16px;
