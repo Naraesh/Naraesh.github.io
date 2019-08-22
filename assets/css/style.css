@@ -226,8 +226,8 @@ p {
   }
 
 
-.main-wrapper .project-title {
-  font-size: 16px;
+.main-wrapper .project-title h4{
+  font-size: 17px;
   font-weight: 400;
   margin-top: 0;
   color:#42A8C0;
@@ -235,7 +235,8 @@ p {
 }
 
 .main-wrapper .projects-section .desc {
-  margin-bottom: 3px;
+  margin-bottom: 4px;
+  text-align: justify;
 }
 
 .main-wrapper .projects-section .item {
@@ -245,6 +246,9 @@ p {
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
+}
+.skillset .item .p{
+  text-align: justify;
 }
 
 @media (max-width: 767.98px) {
